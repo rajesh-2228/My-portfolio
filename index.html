@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Dev<span>.</span>Portfolio</a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="subtitle">AVAILABLE FOR OPPORTUNITIES</p>
+
+            <h1>Building Digital<br>
+                <span>Experiences.</span>
+            </h1>
+
+            <p class="description">
+                Hi, I'm Rajesh. I'm a passionate Full Stack Developer
+                interested in building modern, responsive and user-friendly
+                web applications.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+
+            <p class="location">📍 Your City, India | 💻 Developer</p>
+        </div>
+
+        <div class="code-card">
+            <div class="dots">
+                <span></span><span></span><span></span>
+            </div>
+
+            <pre>
+const developer = {
+  name: "Your Name",
+  role: "Full Stack Developer",
+  skills: ["Java", "HTML", "CSS",
+           "JavaScript", "React"],
+  passion: "Building Web Apps",
+  status: "Learning & Growing"
+};
+            </pre>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-heading">
+            <p>01 / ABOUT ME</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-box">
+            <p>
+                I am a passionate developer interested in creating
+                responsive and user-friendly web applications.
+                I enjoy solving problems and learning new technologies.
+                My focus is Java Full Stack Development, including
+                frontend, backend and database technologies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-heading">
+            <p>02 / MY TOOLKIT</p>
+            <h2>Technical <span>Skills</span></h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>React</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Backend</h3>
+                <p>Java</p>
+                <p>Python</p>
+                <p>Spring Boot</p>
+                <p>REST API</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Database & Tools</h3>
+                <p>MySQL</p>
+                <p>SQL</p>
+                <p>Git & GitHub</p>
+                <p>VS Code</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-heading">
+            <p>03 / MY WORK</p>
+            <h2>My <span>Projects</span></h2>
+        </div>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>
+                    A personal portfolio website created to showcase
+                    my skills, projects and achievements.
+                </p>
+                <div class="tags">HTML | CSS | JavaScript</div>
+                <a href="https://github.com/" target="_blank">GitHub ↗</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Task Manager</h3>
+                <p>
+                    A task management application that allows users
+                    to create, update and manage daily tasks.
+                </p>
+                <div class="tags">Java | MySQL</div>
+                <a href="https://github.com/" target="_blank">GitHub ↗</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Web Application</h3>
+                <p>
+                    A responsive web application with interactive
+                    features and a user-friendly interface.
+                </p>
+                <div class="tags">HTML | CSS | JavaScript</div>
+                <a href="https://github.com/" target="_blank">GitHub ↗</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-heading">
+            <p>04 / MY JOURNEY</p>
+            <h2>Experience & <span>Education</span></h2>
+        </div>
+
+        <div class="experience-card">
+            <h3>Java Full Stack Developer Intern</h3>
+            <p>Add your internship organization and dates.</p>
+            <p>Worked with Java, HTML, CSS, JavaScript and MySQL.</p>
+        </div>
+
+        <div class="experience-card">
+            <h3>Education</h3>
+            <p>Add your degree and college name.</p>
+            <p>Add your graduation year.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-heading">
+            <p>05 / GET IN TOUCH</p>
+            <h2>Let's <span>Connect</span></h2>
+        </div>
+
+        <div class="contact-box">
+            <p>
+                Have an opportunity or project in mind?
+                Feel free to contact me.
+            </p>
+
+            <a href="mailto:your.email@example.com" class="btn primary">
+                Send Email
+            </a>
+
+            <p>Email: your.email@example.com</p>
+            <p>
+                GitHub:
+                <a href="https://github.com/" target="_blank">My GitHub</a>
+            </p>
+            <p>
+                LinkedIn:
+                <a href="https://linkedin.com/" target="_blank">My LinkedIn</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
